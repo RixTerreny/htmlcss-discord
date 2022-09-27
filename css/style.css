@@ -44,7 +44,7 @@ a{
 }
 
 button{
-    padding: 0.7em 1em;
+    padding: 0.7em 1.3em;
     border: 0px;
     border-radius: 25px;
     font-size: 0.9em;
@@ -54,16 +54,43 @@ button{
     padding: 6em 6em;
 }
 
-.section-second-type{
-    background-color: #d3d3d3;
-}
-
 .main-section{
     width: 800px;
-    height: 20em;
-    border: 2px dashed;
-    background-color: #ee82ee;
+    height: 20em; 
     margin: auto;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 4.5em;
+}
+
+.main-section p{
+    color: white;
+    font-size: 1.3em;
+    padding: 3em 0 2em 0;
+}
+
+#download{
+    font-size: 1.2em;
+}
+
+#open{
+    font-size: 1.2em;
+    color: white;
+    background-color: #23272a; 
+}
+
+
+
+
+
+
+
+
+.section-second-type{
+    background-color: #d3d3d3;
 }
 
 .section-container-1{
