@@ -98,6 +98,7 @@ h1{
 
 .section-second-type{
     background-color: #f6f6f6;
+    padding-bottom: 3.5em;
 }
 
 .section-container-3{
@@ -129,10 +130,15 @@ p{
     order:1;
 }
 
-.section-image img{
-    width: 35em;
-    margin-right: 4em;
-    margin-top: -1.5em;
+svg{
+    color: #f6f6f6;
+    margin-bottom: -1em;
+}
+
+.wave1{
+    color: rgb(255, 255, 255);
+    margin-top: -6em;
+    
 }
 
 #mage{
