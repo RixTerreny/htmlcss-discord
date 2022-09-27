@@ -1,18 +1,17 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    
+    font-family: sans-serif;
 }
 
 header{
     padding: 1em 0em;
     background-image: url("../img/jumbo.png");
     background-size: cover;
-
 }
 
 .header-container{
-    width: 1020px;
+    width: 980px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -55,7 +54,7 @@ button{
 }
 
 .main-section{
-    width: 800px;
+    width: 750px;
     height: 20em; 
     margin: auto;
     text-align: center;
@@ -63,17 +62,25 @@ button{
 
 h1{
     color: white;
-    font-size: 4.5em;
+    font-size: 4.2em;
 }
 
 .main-section p{
     color: white;
     font-size: 1.3em;
     padding: 3em 0 2em 0;
+    line-height: 1.5;
 }
 
 #download{
-    font-size: 1.2em;
+    font-size: 1.25em;
+    padding-top: 0.35em;
+    margin-right: 1em;
+}
+
+#download span{
+    padding-right: 0.1em;
+    font-size: 1.1em;
 }
 
 #open{
@@ -82,32 +89,15 @@ h1{
     background-color: #23272a; 
 }
 
-
-
-
-
-
-
+.section-container{
+    margin: auto;
+    width: 920px; 
+    display: flex;
+    padding: 7em 0em;
+}
 
 .section-second-type{
-    background-color: #d3d3d3;
-}
-
-.section-container-1{
-    margin: auto;
-    width: 920px; 
-    height: 27em;
-    display: flex;
-    padding: 3em 0em;
-}
-
-.section-container-2{
-    background-color: #d3d3d3;
-    margin: auto;
-    width: 920px; 
-    height: 27em;
-    display: flex;
-    padding: 3em 0em;
+    background-color: #f6f6f6;
 }
 
 .section-container-3{
@@ -120,31 +110,39 @@ h1{
     margin: 2em auto;
 }
 
-.section-image{
-    background-color: #ffc0cb;
-    border: 2px dashed;
-    flex-grow: 1;
+.section-text{
     order: 2;
 }
 
-.section-text{
-    background-color: #1e90ff;
-    border: 2px dashed;
-    flex-grow: 1.4;
+h2{
+    color: #23272a;
+    font-size: 2.7em;
+}
+
+p{
+    color: #23272a;
+    font-size: 1.2em;
+    padding-top: 1.2em;
+}
+
+.section-image{
     order:1;
 }
 
-.section-image-second-type{
-    background-color: #ffc0cb;
-    border: 2px dashed;
-    flex-grow: 1;
+.section-image img{
+    width: 35em;
+    margin-right: 4em;
+    margin-top: -1.5em;
 }
 
-.section-text-second-type{
-    background-color: #1e90ff;
-    border: 2px dashed;
-    flex-grow: 1.4;
+#mage{
+    margin: 0 0 0 3em;
 }
+
+
+
+
+
 
 .section-3{
     background-color: #d3d3d3;
